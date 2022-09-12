@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">MPMPlab2_2</string>
+
+    <string name="rules_text">Does the name of the color on the left match the color of the text on the right</string>
+    <string name="record_text">Record</string>
+    <string name="points_text">Points</string>
+
+    <string name="yes_button_text">Yes</string>
+    <string name="no_button_text">No</string>
+    <string name="start_button_text">Start</string>
+    <string name="stop_button_text">Stop</string>
+
+
+    <string name="new_record_text">You\'ve beaten your previous record!</string>
+    <string name="finished_text">Finished</string>
+    <string name="gained_points_text">You gained %d</string>
+    <string name="current_points_text">Points %d</string>
+
+
+    <string name="game_text_red">Red</string>
+    <string name="game_text_orange">Orange</string>
+    <string name="game_text_yellow">Yellow</string>
+    <string name="game_text_green">Green</string>
+    <string name="game_text_sky_blue">Sky Blue</string>
+    <string name="game_text_blue">Blue</string>
+    <string name="game_text_violet">Violet</string>
+
+    <string-array name="color_names_array">
+        <item>@string/game_text_red</item>
+        <item>@string/game_text_orange</item>
+        <item>@string/game_text_yellow</item>
+        <item>@string/game_text_green</item>
+        <item>@string/game_text_sky_blue</item>
+        <item>@string/game_text_blue</item>
+        <item>@string/game_text_violet</item>
+    </string-array>
+
+    <plurals name="point_plurals">
+        <item quantity="zero">You gained %d points</item>
+        <item quantity="one">You gained %d point</item>
+        <item quantity="other">You gained %d points</item>
+    </plurals>
+
+</resources>

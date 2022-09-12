@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+<!--    game colors-->
+    <color name="game_red">#D32F2F</color>
+    <color name="game_orange">#F57C00</color>
+    <color name="game_yellow">#FBC02D</color>
+    <color name="game_green">#388E3C</color>
+    <color name="game_sky_blue">#0288D1</color>
+    <color name="game_blue">#303F9F</color>
+    <color name="game_violet">#8E24AA</color>
+
+    <array name="game_colors_array">
+        <item>@color/game_red</item>
+        <item>@color/game_orange</item>
+        <item>@color/game_yellow</item>
+        <item>@color/game_green</item>
+        <item>@color/game_sky_blue</item>
+        <item>@color/game_blue</item>
+        <item>@color/game_violet</item>
+    </array>
+
+
+</resources>
