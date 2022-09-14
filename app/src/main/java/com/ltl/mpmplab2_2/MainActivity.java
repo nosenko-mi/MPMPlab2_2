@@ -117,6 +117,7 @@ public class MainActivity extends AppCompatActivity {
             }
             @Override
             public void onFinish() {
+                isStared = false;
                 timerText.setText(R.string.finished_text);
                 AlertDialog alertDialog = createAlertDialog();
                 alertDialog.show();
